@@ -1,0 +1,25 @@
+{
+  "name": "colorselect",
+  "version": "1.0.0",
+  "description": "color palette",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/space2pacman/colorselect.git"
+  },
+  "keywords": [
+    "colorpicker",
+    "colorselect",
+    "colorselector",
+    "colorarray",
+    "colorlist"
+  ],
+  "author": "space2pacman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/space2pacman/colorselect/issues"
+  },
+  "homepage": "https://github.com/space2pacman/colorselect#readme"
+}
