@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>colorselect</title>
+	<link rel="stylesheet" href="lib/css/colorselect.css">
+</head>
+<body>
+	<div class="colorselect js-colorselect" data-colors='
+	["#a0522d","#cd5c5c","#FF4500","#008B8B","#B8860B",
+	 "#32CD32","#FFD700","#48D1CC","#87CEEB","#FF69B4",
+	 "#a0522d","#cd5c5c","#FF4500","#008B8B","#B8860B"]
+	 '></div>
+<script src="lib/js/colorselect.js"></script>
+<script>
+	colorSelect({
+		el: ".js-colorselect",
+		colors: ["#a0522d","#cd5c5c","#FF4500","#008B8B","#B8860B",
+				 "#32CD32","#FFD700","#48D1CC","#87CEEB","#FF69B4",
+				 "#a0522d","#cd5c5c","#FF4500","#008B8B","#B8860B"]
+	});
+
+	colorSelect.change = () => {
+		console.log(true);
+	}
+</script>
+</body>
+</html>
