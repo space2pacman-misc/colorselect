@@ -1,6 +1,6 @@
 {
   "name": "colorselect",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "color palette",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
